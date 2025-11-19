@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Proza+Libre&display=swap');
+@import "tailwindcss";
+
+.proza-libre {
+  font-family: "Proza Libre", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.cormorant {
+  font-family: "Cormorant Garamond", serif;
+}
