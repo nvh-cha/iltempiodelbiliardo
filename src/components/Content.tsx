@@ -6,9 +6,9 @@ export default function Content() {
       <img src="bg.png" className="w-full" />
       <div className="bg-[#211d17] p-3">
         <div className="flex justify-between">
-          <img src="corner.png" className="w-[120px]"/>
+          <img src="corner.png" className="w-[60px] sm:w-[120px]"/>
           <hr className="bg-[#d0ad61] mt-[10px] w-[0px] sm:w-[500px] h-[5px]"/>
-          <img src="corner.png" className="w-[120px] scale-x-[-1]"/>
+          <img src="corner.png" className="w-[60px] sm:w-[120px] scale-x-[-1]"/>
         </div>
 
         <div className="flex flex-row justify-center">
@@ -28,17 +28,17 @@ export default function Content() {
         </div>
 
 
-        <div className="flex justify-between mt-100px">
-          <img src="corner.png" className="w-[120px] scale-y-[-1]"/>
-          <hr className="bg-[#d0ad61] mt-[104px] w-[0px] sm:w-[500px] h-[5px]"/>
-          <img src="corner.png" className="w-[120px] scale-y-[-1] scale-x-[-1]"/>
+        <div className="flex justify-between mt-[50px]">
+          <img src="corner.png" className="w-[60px] sm:w-[120px] scale-y-[-1]"/>
+          <hr className="bg-[#d0ad61] sm:mt-[104px] w-[0px] sm:w-[500px] h-[5px]"/>
+          <img src="corner.png" className="w-[60px] sm:w-[120px] scale-y-[-1] scale-x-[-1]"/>
         </div>
       </div>
       <div className="relative">
-        <img src="2.jpg" className="w-full block"/> 
+        <img src="2.jpg" className="w-full block min-h-[250px]"/> 
         <div className="absolute inset-0 text-center">
-          <p className="cormorant text-[#d0ad61] mt-15 md:mt-20 text-[35px] md:text-[50px]">Orari</p>
-          <div className="flex justify-center mt-8 md:mt-30">
+          <p className="cormorant text-[#d0ad61] mt-5 md:mt-20 text-[35px] md:text-[50px]">Orari</p>
+          <div className="flex justify-center mt-5 md:mt-30">
             <table className="text-[#d9d8c2] w-[500px] text-[15px] md:text-[20px] proza-libre">
               <tr><td>Lunedì</td><td>Chiuso</td></tr>
               <tr><td>Martedì</td><td>17:00-2:00</td></tr>
@@ -53,9 +53,9 @@ export default function Content() {
       </div>
       <div className="p-3 bg-[#211d17]">
         <div className="flex justify-between">
-          <img src="corner.png" className="w-[120px]"/>
+          <img src="corner.png" className="w-[60px] sm:w-[120px]"/>
           <hr className="bg-[#d0ad61] mt-[10px] w-[0px] sm:w-[500px] h-[5px]"/>
-          <img src="corner.png" className="w-[120px] scale-x-[-1]"/>
+          <img src="corner.png" className="w-[60px] sm:w-[120px] scale-x-[-1]"/>
         </div>
 
         <p className="w-full text-center text-[#d9d8c2] text-[19px]">Via Carroceto, 70, 04011 Aprilia LT</p>
